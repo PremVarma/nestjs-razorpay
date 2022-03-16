@@ -12,8 +12,8 @@ export class AppService {
   async getPayment(): Promise<any> {
     const razorConfig = {
       authKey: {
-        key_id: process.env.KEY_ID || 'rzp_test_mGhwV6ZBECDXSt',
-        key_secret: process.env.KEY_SECRET || 'OGLRS4vmNMdE7e8V7RZNb30y',
+        key_id: process.env.KEY_ID,
+        key_secret: process.env.KEY_SECRET,
       },
       headers: {},
     };
